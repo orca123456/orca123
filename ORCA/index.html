@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f5bdfb3ed5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.jpg" class="logo" alt="Logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>                
+                <li><a href="#contact">Contact</a></li> <!-- corrected href -->
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>A web developer</p>
+            <h1>Hi, I am <span>Den Mark</span><br>Orca</h1>
+        </div>
+    </div>
+</div>
+<!-- about -->
+<div class="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Pic.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ea ipsam ab in consequuntur deleniti magnam quia libero molestias est voluptas, iste placeat nisi quisquam error temporibus iusto vel reiciendis?</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Certification')">Certification</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Communication</span><br>Ability to effectively communicate with team members.</li>
+                        <li><span>Responsive Design</span><br>Ability to create websites that work seamlessly across various devices and screen sizes.</li>
+                        <li><span>Problem-Solving and Adaptability</span><br>Capacity to analyze complex problems.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Built personal websites</span><br>Experimenting with various design frameworks.</li>
+                        <li><span>Contributed to open-source projects</span><br>Gaining valuable experience and collaborating with developers.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Course</span><br>Bachelor of Science in Information Technology</li>
+                        <li><span>School</span><br>Jose Maria College</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certification">
+                    <ul>
+                        <li><span>FreecodeCamp</span><br>Responsive Web Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services -->
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, earum magni provident reprehenderit officiis debitis porro ab ipsam, rem voluptatem, asperiores numquam quisquam in dolorem dignissimos mollitia similique incidunt placeat.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, earum magni provident reprehenderit officiis debitis porro ab ipsam, rem voluptatem, asperiores numquam quisquam in dolorem dignissimos mollitia similique incidunt placeat.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, earum magni provident reprehenderit officiis debitis porro ab ipsam, rem voluptatem, asperiores numquam quisquam in dolorem dignissimos mollitia similique incidunt placeat.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="WORK.jpg">
+                <div class="layer">
+                    <h3>Social Media Application</h3>
+                    <p>MISS NA KITA BABY HINDI KO NA KAYA</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="WORK.jpg">
+                <div class="layer">
+                    <h3>Social Media Application</h3>
+                    <p>MISS NA KITA BABY HINDI KO NA KAYA</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="WORK.jpg">
+                <div class="layer">
+                    <h3>Social Media Application</h3>
+                    <p>MISS NA KITA BABY HINDI KO NA KAYA</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- contact -->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact@example</p>
+                <p><i class="fas fa-square-phone"></i>2133113</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <a href="image/" download class="btn btn2">Download Cv</a> <!-- Moved outside form -->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright @ Den Mark<i class="fa-solid fa-heart"></i></p>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
